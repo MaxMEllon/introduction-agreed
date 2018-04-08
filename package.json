@@ -1,0 +1,14 @@
+{
+  "name": "agreed-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "agreed-server --path ./spec/agreed/entry.js --port 8080 --static ./public",
+    "api:list": "agreed-ui --path ./spec/agreed/entry.js --port 8000"
+  },
+  "devDependencies": {
+    "agreed": "^3.1.0"
+  }
+}
+
