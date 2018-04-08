@@ -1,11 +1,11 @@
 # agreed を使ってみる
 
-agreedとは
+[agreed](https://github.com/recruit-tech/agreed)とは
 ---
 
 Consumer Driven Contract をサポートするためのツールです．
 指定された形式(json5, yml など)で API仕様書 を記述すると，それに従った mock server が立ち上がります．
-また，[agreed-ui](https://github.com/recruit-tech/agreed-ui) を利用することで，各種仕様をWebで確認できます
+また，[agreed-ui](https://github.com/recruit-tech/agreed-ui)(agreed同封) を利用することで，各種仕様をWebで確認できます
 
 Consumer Driven Contractとは
 ---
@@ -13,7 +13,7 @@ Consumer Driven Contractとは
 Consumer Driven Contractの文脈では，データや機能を提供する側を，**Provider** とし，
 それを利用する側を Consumer とします．
 
-一般的なRESTfulなAPIと連携する場合，バックエンド開発者が **Provider** となり，
+一般的なRESTfulなAPIと連携するような開発スタイルの場合，バックエンド開発者が **Provider** となり，
 フロントエンド開発者が **Consumer** となります．
 
 従来は，Provider が APIのリクエストやレスポンスを設計し，それに従って
