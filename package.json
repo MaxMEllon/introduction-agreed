@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "agreed-server --path ./spec/agreed/entry.js --port 8080 --static ./public",
+    "test": "agreed-client --path ./spec/agreed/entry.js --host localhost --port 8080",
     "api:list": "agreed-ui --path ./spec/agreed/entry.js --port 8000"
   },
   "devDependencies": {
