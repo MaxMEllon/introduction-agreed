@@ -1,17 +1,20 @@
 {
   request: {
     path: '/chat/messages',
-    method: 'GET',
+    body: {
+      session: 'hogehoge',
+    },
+    method: 'POST',
   },
   response: {
     status: 200,
     body: {
       messages: [
-        '{:messages.0-last}'
+        '{:mes.0-last}',
       ]
     },
     values: {
-      messages: [
+      mes: [
         {
           id: 1,
           message: 'buy milk',

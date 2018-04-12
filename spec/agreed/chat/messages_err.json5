@@ -1,0 +1,15 @@
+{
+  request: {
+    path: '/chat/messages',
+    body: {
+      session: null,
+    },
+    method: 'POST',
+  },
+  response: {
+    status: 401,
+    body: {
+      message: 'Unauthalized'
+    },
+  }
+}
